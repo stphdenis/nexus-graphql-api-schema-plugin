@@ -1,0 +1,48 @@
+{
+  "name": "nexus-graphql-api-schema-plugin",
+  "version": "0.0.1",
+  "description": "Simpler schema object from GraphQLSchema for Nexus",
+  "keywords": [
+    "Nexus",
+    "GraphQL",
+    "Typecript",
+    "GraphQLSchema"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "DENIS Stéphane",
+    "email": "stph.denis@gmail.com"
+  },
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://github.com/stphdenis/nexus-graphql-api-schema-plugin",
+  "bugs": {
+    "url": "http://github.com/stphdenis/nexus-graphql-api-schema-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stphdenis/nexus-graphql-api-schema-plugin.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "graphql-api-schema": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "typescript": ">=3.8.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
