@@ -3,7 +3,7 @@ import { GraphQLApiSchema, GraphQLApiSchemaOptions } from 'graphql-api-schema'
 //import { printSchema } from 'graphql'
 
 export interface GraphQLApiSchemaPluginOptions extends GraphQLApiSchemaOptions {}
-export const graphqlApiSchema = (args?: GraphQLApiSchemaPluginOptions) => {
+export const graphqlApi = (args?: GraphQLApiSchemaPluginOptions) => {
 
   const options: GraphQLApiSchemaPluginOptions = {
     dirName: 'node_modules/@types/typegen-nexus',

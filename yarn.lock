@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@nexus/schema@^0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@nexus/schema/-/schema-0.14.0.tgz#3242f4d02ec9458914deb638b434bcfbd5888d2e"
-  integrity sha512-niJFcOm1F2s3kwj+j3ips4sIIJaTNh5Auq+zcHwOsRBqSYsFJnA/8QUKMb1wjVIEqS+Jl71Sj4xFdg3/njlm9A==
+"@nexus/schema@^0.15.0-next.1":
+  version "0.15.0-next.1"
+  resolved "https://registry.yarnpkg.com/@nexus/schema/-/schema-0.15.0-next.1.tgz#39def5322a6cc821914a9f2dee40e1333257e9f8"
+  integrity sha512-PBml7hY5DgqTEEEk9jwczUvBcyMtX9HKR8qfbU1tc+kZ+8uRodnSOatMqN6Haz6QuZhkZBLw4gh2gnpOUYWjPw==
   dependencies:
     iterall "^1.2.2"
     tslib "^1.9.3"
@@ -15,17 +15,17 @@ cycle@^1.0.3:
   resolved "https://registry.yarnpkg.com/cycle/-/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
   integrity sha1-IegLK+hYD5i0aPN5QwZisEbDStI=
 
-graphql-api-schema@^0.2.0:
+graphql-api-schema@^0:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/graphql-api-schema/-/graphql-api-schema-0.2.7.tgz#a3c9209abaaf18716afa793fbfd5e215f1678f08"
   integrity sha512-vokmp3GbRn6z13n9SC4NcaawEvvJbY1ds/ow7ZMmTjeqqsBrhxXFgEDSGNTUSN6F7VmUIYakIbQXsLNzfqDl9Q==
   dependencies:
     cycle "^1.0.3"
 
-graphql@14.5.0:
-  version "14.5.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.5.0.tgz#4801e6460942c9c591944617f6dd224a9e531520"
-  integrity sha512-wnGcTD181L2xPnIwHHjx/moV4ulxA2Kms9zcUY+B/SIrK+2N+iOC6WNgnR2zVTmg1Z8P+CZq5KXibTnatg3WUw==
+graphql@14.5.8:
+  version "14.5.8"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.5.8.tgz#504f3d3114cb9a0a3f359bbbcf38d9e5bf6a6b3c"
+  integrity sha512-MMwmi0zlVLQKLdGiMfWkgQD7dY/TUKt4L+zgJ/aR0Howebod3aNgP5JkgvAULiR2HPVZaP2VEElqtdidHweLkg==
   dependencies:
     iterall "^1.2.2"
 
