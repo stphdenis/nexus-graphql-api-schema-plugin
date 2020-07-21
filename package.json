@@ -1,10 +1,12 @@
 {
   "name": "nexus-graphql-api-schema-plugin",
   "version": "0.0.1",
-  "description": "Simpler schema object from GraphQLSchema for Nexus",
+  "description": "Simpler schema giving types from GraphQLSchema for Nexus",
   "keywords": [
     "Nexus",
+    "Plugin",
     "GraphQL",
+    "Types",
     "Typecript",
     "GraphQLSchema"
   ],
@@ -31,10 +33,12 @@
     "graphql-api-schema": "^0.2.0"
   },
   "devDependencies": {
-    "@types/node": "^14.0.23",
+    "@nexus/schema": "^0.14.0",
+    "graphql": "14.5.0",
     "typescript": "^3.9.7"
   },
   "peerDependencies": {
+    "@nexus/schema": "*",
     "typescript": ">=3.8.0"
   },
   "scripts": {
