@@ -1,11 +1,11 @@
 import * as NexusSchema from '@nexus/schema'
-import { GraphQLApiSchema, GraphQLApiSchemaOptions as NexusGraphQLApiSchemaPluginOptions } from 'graphql-api-schema'
+import { GraphQLApiSchema, GraphQLApiSchemaOptions } from 'graphql-api-schema'
 //import { printSchema } from 'graphql'
 
-export interface NexusGraphQLApiSchemaPlugin extends NexusGraphQLApiSchemaPluginOptions {}
-export const nexusGraphQLApiSchemaPlugin = (args?: NexusGraphQLApiSchemaPlugin) => {
+export interface GraphQLApiSchemaPluginOptions extends GraphQLApiSchemaOptions {}
+export const graphqlApiSchema = (args?: GraphQLApiSchemaPluginOptions) => {
 
-  const options: NexusGraphQLApiSchemaPluginOptions = {
+  const options: GraphQLApiSchemaPluginOptions = {
     dirName: 'node_modules/@types/typegen-nexus',
     fileName: 'graphqlApiSchema.json',
     jsonSpace: 2,
@@ -13,8 +13,8 @@ export const nexusGraphQLApiSchemaPlugin = (args?: NexusGraphQLApiSchemaPlugin) 
   }
 
   return NexusSchema.plugin({
-    name: 'graphqlApiSchemaGeneratorPlugin',
-    description: 'Generate Nexus types in json format',
+    name: 'nexus-graphql-api-schema-plugin',
+    description: 'Generate Nexus Types',
     onInstall(builder) {
       GraphQLApiSchema.init(options)
       return {types: []}
