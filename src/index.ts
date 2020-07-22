@@ -1,6 +1,5 @@
 import * as NexusSchema from '@nexus/schema'
 import { GraphQLApiSchema, GraphQLApiSchemaOptions } from 'graphql-api-schema'
-//import { printSchema } from 'graphql'
 
 export interface GraphQLApiSchemaPluginOptions extends GraphQLApiSchemaOptions {}
 export const graphqlApi = (args?: GraphQLApiSchemaPluginOptions) => {
@@ -19,10 +18,6 @@ export const graphqlApi = (args?: GraphQLApiSchemaPluginOptions) => {
       GraphQLApiSchema.init(options)
       return {types: []}
     },
-
-   /* onBeforeBuild(builder) {
-      GraphQLApiSchema.init(options)
-    },*/
 
     onAfterBuild(graphQLSchema) {
       GraphQLApiSchema.setGraphQLSchema(graphQLSchema)

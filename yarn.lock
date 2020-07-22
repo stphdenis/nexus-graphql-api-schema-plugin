@@ -15,10 +15,10 @@ cycle@^1.0.3:
   resolved "https://registry.yarnpkg.com/cycle/-/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
   integrity sha1-IegLK+hYD5i0aPN5QwZisEbDStI=
 
-graphql-api-schema@^0:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/graphql-api-schema/-/graphql-api-schema-0.2.7.tgz#a3c9209abaaf18716afa793fbfd5e215f1678f08"
-  integrity sha512-vokmp3GbRn6z13n9SC4NcaawEvvJbY1ds/ow7ZMmTjeqqsBrhxXFgEDSGNTUSN6F7VmUIYakIbQXsLNzfqDl9Q==
+graphql-api-schema@^0.2.15:
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/graphql-api-schema/-/graphql-api-schema-0.2.15.tgz#d53495e2a77ba66127efc283833b4e2fcebb338b"
+  integrity sha512-5J8eLDF8CU9tfpv0QXoe+3YmVXcYQEEgDcSCpzoMuH79vDvP2tWlksipIQunDWheLUQwoxSf3/4pzFrFkcOWLA==
   dependencies:
     cycle "^1.0.3"
 

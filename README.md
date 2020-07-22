@@ -11,7 +11,7 @@ See [`graphql-api-schema`](https://github.com/stphdenis/graphql-api-schema) exam
 Other example :
 
 ```ts
-import { GraphQLApiSchema } from 'graphql-api-schema'
+import { apiSchema } from 'graphql-api-schema'
 
 schema.objectType({
   name: 'Country',
@@ -24,7 +24,6 @@ schema.objectType({
 schema.extendType({
   type: 'Query',
   definition(t) {
-    const apiSchema = GraphQLApiSchema.apiSchema
     console.info({
       name: apiSchema.types['Country'].name,
       props: apiSchema.types['Country'].fieldList,
