@@ -1,6 +1,6 @@
 {
   "name": "nexus-graphql-api-schema-plugin",
-  "version": "0.2.15",
+  "version": "0.2.16",
   "description": "Simpler schema giving types from GraphQLSchema for Nexus",
   "keywords": [
     "Nexus",
