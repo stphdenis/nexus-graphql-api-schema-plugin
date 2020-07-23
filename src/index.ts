@@ -1,6 +1,11 @@
 import * as NexusSchema from '@nexus/schema'
 import { GraphQLApiSchema, GraphQLApiSchemaOptions } from 'graphql-api-schema'
 
+declare module 'graphql-api-schema' {
+  export interface ApiSchema {
+    stage: 'walk'|'build'
+  }
+}
 export interface GraphQLApiSchemaPluginOptions extends GraphQLApiSchemaOptions {}
 export const graphqlApi = (args?: GraphQLApiSchemaPluginOptions) => {
 
