@@ -24,10 +24,12 @@ schema.objectType({
 schema.extendType({
   type: 'Query',
   definition(t) {
-    console.info({
-      name: apiSchema.types['Country'].name,
-      props: apiSchema.types['Country'].fieldList,
-    }) // => { name: 'Country', props: [ 'id', 'nom' ] }
+    if(apiSchema.stage === 'build') {
+      console.info({
+        name: apiSchema.types['Country'].name,
+        props: apiSchema.types['Country'].fieldList,
+      }) // => { name: 'Country', props: [ 'id', 'nom' ] }
+    }
     const fields = apiSchema.types['Country'].fields
     for(const field of apiSchema.types['Country'].fieldList) {
       const fieldType = fields[field].type
