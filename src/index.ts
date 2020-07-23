@@ -16,11 +16,16 @@ export const graphqlApi = (args?: GraphQLApiSchemaPluginOptions) => {
 
     onInstall(builder) {
       GraphQLApiSchema.init(options)
+      GraphQLApiSchema.apiSchema.stage = 'walk'
       return {types: []}
+    },
+
+    onBeforeBuild() {
+      GraphQLApiSchema.apiSchema.stage = 'build'
     },
 
     onAfterBuild(graphQLSchema) {
       GraphQLApiSchema.setGraphQLSchema(graphQLSchema)
-    },
+    }
   })
 }
