@@ -36,7 +36,7 @@ schema.extendType({
         // => The "id" is of type "ID" and is mandatory
       } else {
           console.info(`The ${field} is of type ${fieldType.of.name} and is optional`)
-        // => The "nom" is of type "String" and is optional
+        // => The "name" is of type "String" and is optional
       }
     }
   }
