@@ -1,6 +1,6 @@
 {
   "name": "nexus-graphql-api-schema-plugin",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Simpler schema giving types from GraphQLSchema for Nexus",
   "keywords": [
     "Nexus",
@@ -15,7 +15,7 @@
     "name": "DENIS Stéphane",
     "email": "stph.denis@gmail.com"
   },
-  "main": "dist/index",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "homepage": "http://github.com/stphdenis/nexus-graphql-api-schema-plugin",
