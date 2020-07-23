@@ -6,7 +6,7 @@ Nexux schema is totally defined, even all queries, mutations with the args and e
 
 ## Examples
 
-See [`graphql-api-schema`](https://github.com/stphdenis/graphql-api-schema) examples.
+See [`graphql-api-schema`](https://github.com/stphdenis/graphql-api-schema#examples)
 
 Other example :
 
