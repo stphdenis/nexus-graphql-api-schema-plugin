@@ -32,10 +32,10 @@ schema.extendType({
     for(const field of apiSchema.types['Country'].fieldList) {
       const fieldType = fields[field].type
       if(fieldType.isNullable === false) {
-        console.info(`The ${field} is of type ${fieldType.of.name} and is mandatory`)
+        console.info(`The "${field}" is of type "${fieldType.of.name}" and is mandatory`)
         // => The "id" is of type "ID" and is mandatory
       } else {
-          console.info(`The ${field} is of type ${fieldType.of.name} and is optional`)
+          console.info(`The "${field}" is of type "${fieldType.of.name}" and is optional`)
         // => The "name" is of type "String" and is optional
       }
     }
