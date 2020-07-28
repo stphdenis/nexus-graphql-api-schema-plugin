@@ -15,12 +15,10 @@ cycle@^1.0.3:
   resolved "https://registry.yarnpkg.com/cycle/-/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
   integrity sha1-IegLK+hYD5i0aPN5QwZisEbDStI=
 
-graphql-api-schema@^0.2.15:
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/graphql-api-schema/-/graphql-api-schema-0.2.15.tgz#d53495e2a77ba66127efc283833b4e2fcebb338b"
-  integrity sha512-5J8eLDF8CU9tfpv0QXoe+3YmVXcYQEEgDcSCpzoMuH79vDvP2tWlksipIQunDWheLUQwoxSf3/4pzFrFkcOWLA==
-  dependencies:
-    cycle "^1.0.3"
+graphql-api-schema@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/graphql-api-schema/-/graphql-api-schema-0.5.2.tgz#5955eadef940435b63df071cad15ca2d9f6f1b33"
+  integrity sha512-frvQVJcpPfXBUzrVL0ORdGsDOZjbtzlfM119PVfD+G2VmRzbba4AtwJe/GulAAnp+MR62e01oVnQ4ou6CK9fmA==
 
 graphql@14.5.8:
   version "14.5.8"
@@ -33,6 +31,11 @@ iterall@^1.2.2:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.3.0.tgz#afcb08492e2915cbd8a0884eb93a8c94d0d72fea"
   integrity sha512-QZ9qOMdF+QLHxy1QIpUHUU1D5pS2CG2P69LF6L6CPjPYA/XMOmKV3PZpawHoAjHNyB0swdVTRxdYT4tbBbxqwg==
+
+json-map-cycle@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/json-map-cycle/-/json-map-cycle-0.2.1.tgz#f29fdf448284fd4cae05e55874d94d3f27770ffe"
+  integrity sha512-P8+qwN4p4G1E7ZqhBroUgFu6reaG0e6HyZGASQRgaDrtisr2VjEJzenQpbi+S0UKEk8peBBcpnyLzJUrrirViw==
 
 tslib@^1.9.3:
   version "1.13.0"
