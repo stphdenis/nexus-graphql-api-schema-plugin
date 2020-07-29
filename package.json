@@ -33,19 +33,19 @@
     "@nexus/schema": "^0.15.0-next.1",
     "cycle": "^1.0.3",
     "graphql": "14.5.8",
-    "graphql-api-schema": "^0.5.3",
+    "graphql-api-schema": "^0.5.5",
     "json-map-cycle": "^0.2.1",
     "typescript": "^3.9.7"
   },
   "peerDependencies": {
     "@nexus/schema": "*",
     "graphql": ">=14.5.8",
-    "graphql-api-schema": ">= 0.5.2",
+    "graphql-api-schema": ">=0.5.5",
     "typescript": ">=3.8.0"
   },
   "scripts": {
     "build": "yarn tsc",
-    "npm": "yarn build && yarn publish"
+    "prepublish": "yarn build"
   },
   "prettier": {
     "semi": false,
